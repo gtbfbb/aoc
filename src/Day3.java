@@ -9,10 +9,7 @@ public class Day3 {
         var banks = Files.readAllLines(Path.of("C:\\Users\\Genee\\IdeaProjects\\demo7\\aoc\\src\\aocd3.txt"));
         long joltage = 0;
         for (String bank : banks) {
-            int joltsize = 12 - 1;
-            int l = bank.length() - joltsize;
-            int loc = 0;
-            int temp = 0;
+            int joltsize = 12 - 1, l = bank.length() - joltsize, loc = 0, temp = 0;
             for (int j = joltsize; j >= 0; j--) {
                 long fd = 0;
                 for (int i = loc; i < l; i++) {
