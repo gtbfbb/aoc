@@ -30,7 +30,7 @@ public class Day2 {
 //                }
 
 
-                //pt2 sol
+                //pt2
                 long div;
                 int count = 0;
                 for (int j = 1; j < d; j++){

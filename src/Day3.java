@@ -5,7 +5,7 @@ import java.nio.file.Path;
 
 public class Day3 {
     public static void main(String[] args) throws IOException {
-        //day 3 sol 1 + 2
+        //part 1 + 2
         var banks = Files.readAllLines(Path.of("C:\\Users\\Genee\\IdeaProjects\\demo7\\aoc\\src\\aocd3.txt"));
         long joltage = 0;
         for (String bank : banks) {
