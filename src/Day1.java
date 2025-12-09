@@ -23,7 +23,5 @@ public class Day1 {
         pl(c);
     }
 
-    public static void pl(Object x){
-        System.out.println(x);
-    }
+    public static void pl(Object x){System.out.println(x);}
 }

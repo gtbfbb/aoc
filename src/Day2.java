@@ -60,7 +60,5 @@ public class Day2 {
         return result;
     }
 
-    public static void pl(Object x){
-        System.out.println(x);
-    }
+    public static void pl(Object x){System.out.println(x);}
 }

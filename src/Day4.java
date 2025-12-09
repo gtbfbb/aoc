@@ -50,15 +50,7 @@ public class Day4 {
         pl(c);
     }
 
-    public static void pl(Object x){
-        System.out.println(x);
-    }
 
-    public static void p(Object x){
-        System.out.print(x);
-    }
-
-
-
-
+    public static void pl(Object x){System.out.println(x);}
+    public static void p(Object x){System.out.print(x);}
 }
